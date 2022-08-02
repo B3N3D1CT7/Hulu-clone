@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Made by Benedict -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benedict Umeozor">
+  <title>Hulu Clone</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fffd17f093.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <section id="hero">
+   <div class="container">
+     <header>
+       <h1>hulu</h1>
+       <div class="menu">
+         <i class="fa-solid fa-bars menu-bar"></i>
+       </div>
+     </header>
+    
+   <nav class="panel">
+     <a href="#">Get the hulu app</a>
+     <a href="#">LOGIN</a>
+     <a class="panel-link" href="#">GET THE DISNEY BUNDLE</a>
+   </nav> 
+     
+     <main>
+       <h2>BUNDLE WITH ANY HULU PLAN & SAVE</h2>
+       <div class="image">
+         <img src="images/disney.png">
+       </div>
+       <p class="main-text">Get endless entertainment, live sports, and the shows and movies you love.</p>
+       <button class="get-btn">GET THE DISNEY BUNDLE</button>
+       <p class="link-text"><a class="link-1" href="#">Whats included?</a> See <a class="link-2" href="#">Bundle terms</a></p>
+       <a class="main-link" href="#">Sign up for Hulu only</a>
+     </main>
+   
+   </div>
+ </section>
+ 
+ <section id="show">
+   <div class="container">
+     <div class="show-text">
+       <h1>INCLUDED IN ALL PLANS</h1>
+       <h2>All The TV You Love</h2>
+       <p>Stream full seasons of exclusive series, current season episodes, hit movies, Hulu Originals, kid shows and more.</p>
+     </div>
+   
+     <div class="show-images">
+       <div class="show-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/cartoon.jpg');">
+         <p>Past & Current</p>
+         <p>TV Shows</p>
+       </div>
+       <div class="show-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/sing.jpg')";>
+         <p>New & Classic</p>
+         <p>Movies</p>
+       </div>
+       <div class="show-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/girl.jpg');">
+         <p>GroundBreaking</p>
+         <p>Hulu <br> Originals</p>
+       </div>
+       <div class="show-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/man.jpg');">
+         <p>Add-ons</p>
+         <p>Premium</p>
+       </div>
+     </div>
+     <div class="side-text">
+       <p>Premium network add-ons available for an additional cost</p>
+     </div>
+   </div>
+ </section>
+ 
+ <section id="broadcast">
+   <div class="container">
+     <div class="bc-text">
+       <h2>HULU + LIVE TV, NOW WITH DISNEY+ AND ESPN+</h2>
+       <h1>Live TV Makes It Better</h1>
+     </div>
+     <div class="bc-main-text">
+       <p>Make the switch from cable. Get 75+ top channels on Hulu with your favorite live sports, news, and events - plus the entire Hulu streaming library. With Unlimited DVR, store Live TV recordings for up to nine months and fast-forward through your DVR content. Access endless entertainment with Disney+ and live sports with ESPN+. All three for a new price of $69.99/month.</p>
+       <p>18+ only. Regional restrictions, blackouts and <a href="#">Live TV terms apply</a>. Access content from each service separately and access ESPN+ content via Hulu. Location data required to watch certain content. Offer valid for eligible subscribers only. 
+Unlimited DVR recording is not available for on-demand shows.</p>
+     </div>
+     <a class="main-link" href="#">VIEW CHANNELS IN YOUR AREA →
+</a>
+<div class="arrow">
+       <a href="#showcase">
+         <img src="images/arrow.svg">
+       </a>
+     </div>
+   </div>
+ </section>
+ 
+ <section id="showcase">
+   
+   <div class="showcase-nav">
+     <div class="container">
+       <p onclick="showPage(0)">Live Scores</p>
+       <p onclick="showPage(1)">Breaking News</p>
+       <p onclick="showPage(2)">Biggest Events</p>
+     </div>
+     <div class="underline"></div>
+   </div>
+   
+   <div class="showcase show" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/baskit.jpg');">
+     <div class="container">
+       <h2>Live Scores</h2>
+       <p>Catch your games at home or on the go. Stream live games from major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more.</p>
+       <div class="s-images">
+         <div class="s-image">
+           <img src="images/cbs.png">
+         </div>
+         <div class="s-image">
+           <img src="images/espn.png">
+         </div>
+         <div class="s-image">
+           <img src="images/fs1.svg">
+         </div>
+         <div class="s-image">
+           <img src="images/nfl.png">
+         </div>
+       </div>
+       <p class="s-desc">Live TV plan required. Regional restrictions, blackouts and additional terms apply. <a href="#">See details</a></p>
+     </div>
+   </div>
+   
+   <div class="showcase" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/phone.jpg');">
+     <div class="container">
+       <h2>Breaking News</h2>
+       <p>Keep pace with what's going on locally and globally with trusted opinions from all the top news networks.</p>
+       <div class="s-images">
+         <div class="s-image">
+           <img src="images/abc.png">
+         </div>
+         <div class="s-image">
+           <img src="images/cnn.svg">
+         </div>
+         <div class="s-image">
+           <img src="images/msn.png">
+         </div>
+         <div class="s-image">
+           <img src="images/fox.svg">
+         </div>
+       </div>
+       <p class="s-desc">Live TV plan required. Regional restrictions, blackouts and additional terms apply. <a href="#">See details</a></p>
+     </div>
+   </div>
+   
+   <div class="showcase" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/phone2.jpg');">
+     <div class="container">
+       <h2>Biggest Events</h2>
+       <p>Spectacular, can't-miss moments like the Olympics, Grammys®, Oscars®, Emmys®, and more.</p>
+       <div class="s-images">
+         <div class="s-image">
+           <img src="images/rab.png">
+         </div>
+         <div class="s-image">
+           <img src="images/gbobe.png">
+         </div>
+         <div class="s-image">
+           <img src="images/grammy.png">
+         </div>
+         <div class="s-image">
+           <img src="images/oscars.png">
+         </div>
+       </div>
+       <p class="s-desc">Live TV plan required. Regional restrictions, blackouts and additional terms apply. <a href="#">See details</a></p>
+     </div>
+   </div>
+ </section>
+ 
+ <section id="plan">
+   <div class="plan-select">
+     <div class="container">
+       <h2>Select Your Plan</h2>
+       <p>No hidden fees, equipment rentals, or installation appointments.</p>
+       <p>Switch plans or cancel anytime.^^</p>
+     </div>
+   </div>
+   <div class="subscribe">
+     <div class="sub-div">
+       <button>MOST POPULAR</button>
+       <div class="sub">
+         <p class="free">30 DAY FREE TRIAL</p>
+         <p class="hulu">Hulu</p>
+         <button class="price">$6.99 / Mo.</button>
+       </div>
+     </div>
+     <div class="sub-div">
+       <div class="space"></div>
+       <div class="sub">
+         <p class="free">30 DAY FREE TRIAL</p>
+         <p class="hulu">Hulu (No Ads)</p>
+         <button class="price">$12.99 / Mo.</button>
+       </div>
+     </div>
+   </div>
+   
+   <div class="row">
+     <div class="container">
+       <h4>Watch on your TV, laptop, phone, or tablet</h4>
+       <div class="main-row">
+         <img src="images/checkmark.svg">
+         <img src="images/checkmark.svg">
+       </div>
+     </div>
+   </div>
+   
+   <div class="row">
+     <div class="container">
+       <h4>Up to 6 user profiles <img src="images/exlam.svg"></h4>
+       <div class="main-row">
+         <img src="images/checkmark.svg">
+         <img src="images/checkmark.svg">
+       </div>
+     </div>
+   </div>
+   
+   <div class="row">
+     <div class="container">
+       <h4>Watch on 2 different screens at the same time</h4>
+       <div class="main-row">
+         <img src="images/checkmark.svg">
+         <img src="images/checkmark.svg">
+       </div>
+     </div>
+   </div>
+   
+   <div class="row">
+     <div class="container">
+       <h4>No ads in streaming library <img src="images/exlam.svg"></h4>
+       <div class="main-row">
+         <i class="fa-solid fa-minus"></i>
+         <img src="images/checkmark.svg">
+       </div>
+     </div>
+   </div>
+   
+   <div class="row">
+     <div class="container">
+       <h4>Download and watch <img src="images/exlam.svg"></h4>
+       <div class="main-row">
+         <i class="fa-solid fa-minus"></i>
+         <img src="images/checkmark.svg">
+       </div>
+     </div>
+   </div>
+   
+   <div class="row main">
+     <div class="container">
+       <p>^For current-season shows in the streaming library only</p>
+       <p>^^Switches from Live TV to Hulu take effect as of the next billing cycle</p>
+     </div>
+     
+     <div class="main-add">
+       <div class="container">
+         <h3>Available Add-ons</h3>
+         <p>Add-ons available at an additional cost.</p>
+         <p>Add them up after you sign up for Hulu.</p>
+       </div>
+       
+       <div class="row">
+         <div class="container">
+           <h4>HBO Max™</h4>
+           <div class="main-row">
+             <img src="images/checkmark.svg">
+             <img src="images/checkmark.svg">
+           </div>
+         </div>
+       </div>
+       
+       <div class="row">
+         <div class="container">
+           <h4>CINEMAX®</h4>
+           <div class="main-row">
+             <img src="images/checkmark.svg">
+             <img src="images/checkmark.svg">
+           </div>
+         </div>
+       </div>
+       
+       <div class="row">
+         <div class="container">
+           <h4>SHOWTIME®</h4>
+           <div class="main-row">
+             <img src="images/checkmark.svg">
+             <img src="images/checkmark.svg">
+           </div>
+         </div>
+       </div>
+       
+       <div class="row last">
+         <div class="container">
+           <h4>STARZ®</h4>
+           <div class="main-row">
+             <img src="images/checkmark.svg">
+             <img src="images/checkmark.svg">
+           </div>
+         </div>
+       </div>
+       
+     </div>
+     
+   </div>
+   
+   <div class="row add-ons">
+     <div class="container">
+       <h4 id="showAddOns">Show Add-ons <img src="images/arrow.svg"></h4>
+     </div>
+   </div>
+   
+ </section>
+ 
+ <footer>
+   <div class="container">
+     <div class="links">
+       <div class="link">
+         <div class="main-link" onclick="showAccordion(0)">
+           <p>CONTACT</p>
+           <i class="fa-solid fa-angle-down accord"></i>
+         </div>
+         <div class="accordion">
+           <div class="acc-row">
+             <p>Streaming Library</p>
+             <p>Live TV</p>
+             <p>Live News</p>
+             <p>Live Sports</p>
+           </div>
+           
+           <div class="acc-row">
+             <p>TV Shows</p>
+             <p>Movies</p>
+             <p>Originals</p>
+             <p>Networks</p>
+             <p>Kids</p>
+             <p>FX</p>
+           </div>
+           
+           <div class="acc-row">
+             <p>HBO Max™</p>
+             <p>Cinemax</p>
+             <p>Showmax</p>
+             <p>STARZ</p>
+           </div>
+           
+           <div class="acc-row">
+             <p>Hulu, Disney+, and ESPN+</p>
+             <p>Hulu (No Ads), Disney+ and ESPN+</p>
+             <p>Student Discount</p>
+           </div>
+         </div>
+       </div>
+       
+       <div class="link">
+         <div class="main-link" onclick="showAccordion(1)">
+           <p>HELP</p>
+           <i class="fa-solid fa-angle-down accord"></i>
+         </div>
+         <div class="accordion">
+           <div class="acc-row">
+             <p>Account & Billing</p>
+             <p>Plans & Pricing</p>
+             <p>Supported Devices</p>
+             <p>Accessibility</p>
+           </div>
+         </div>
+       </div>
+       
+       <div class="link">
+         <div class="main-link" onclick="showAccordion(2)">
+           <p>ABOUT US</p>
+           <i class="fa-solid fa-angle-down accord"></i>
+         </div>
+         <div class="accordion">
+           <div class="acc-row">
+             <p>Shop Hulu</p>
+             <p>Press</p>
+             <p>Jobs</p>
+             <p>Contact</p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <hr>
+     
+     <div class="main-footer">
+       <div class="icons">
+         <img src="images/facebook (1).svg">
+         <img src="images/twitter.svg">
+         <img src="images/youtube.svg">
+         <img src="images/instagram.svg">
+       </div>
+       
+       <div class="privacy-links">
+         <p>About Ads</p>
+         <p>Term of Use</p>
+         <p>Privacy Policy</p>
+       </div>
+       
+       <div class="privacy">
+         <p>Do Not Sell My Personal Information</p>
+         <p>Your California Privacy Rights</p>
+       </div>
+       
+       <div class="privacy-links">
+         <p>TV Parental Guidelines</p>
+         <p>SiteMap</p>
+       </div>
+       
+       <div class="copy-right">
+         &copy; Hulu clone 2022;
+       </div>
+       
+     </div>
+
+
+   </div>
+  
+ </footer>
+ 
+ 
+ <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
